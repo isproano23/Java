@@ -5,7 +5,7 @@ public class TestCuadrado {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Cuadrado c=new Cuadrado();
+		Cuadrado c=new Cuadrado(1);
 		double resultado;
 		double resultado1;
 		c.lado=8;

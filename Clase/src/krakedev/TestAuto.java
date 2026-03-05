@@ -3,8 +3,9 @@ package krakedev;
 public class TestAuto {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Auto a1 = new Auto();
-		Auto a2 = new Auto();
+		Auto a1 = new Auto("TOYOTA",2012,6300);
+		Auto a2 = new Auto("NISSAN",2011,1000);
+		
 		System.out.println("Marca:" + a1.marca);
 		System.out.println("Anio:" + a1.anio);
 		System.out.println("Precio:" + a1.precio);

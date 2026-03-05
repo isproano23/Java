@@ -3,6 +3,12 @@ package krakedev;
 public class Cuadrado {
 	public int lado;
 	
+	
+	
+	public Cuadrado(int lado) {
+		this.lado = lado;
+	}
+
 	public double areaCuadrado() {
 		double area;
 		 area=lado*lado;

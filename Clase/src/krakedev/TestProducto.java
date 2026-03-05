@@ -3,9 +3,9 @@ package krakedev;
 public class TestProducto {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Producto pA = new Producto();
-		Producto pB = new Producto();
-		Producto pC = new Producto();
+		Producto pA = new Producto("LEMONFLU","SOBRE",10.5F,18);
+		Producto pB = new Producto("PARACETAMOL","PASTILLA",15.25F,20);
+		Producto pC = new Producto("TEMPRA","JARABE",200.25F,70);
 
 		System.out.println("Nombre:" + pA.nombre);
 		System.out.println("Descripcion:" + pA.descripcion);
